@@ -297,13 +297,12 @@ class BusinessesList extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                // Text('🏢${businesses[index].company}'),
+                // Text('${businesses[index].company}'),
                 // TODO: here we will use the address to open up a link to maps
                 Row(
                   children: <Widget>[
-                    Text("${businesses[index].distance}"),
                     Text(
-                      "🏢",
+                      "",
                       style: TextStyle(fontSize: 30),
                     ),
                     Text(
@@ -343,6 +342,7 @@ class BusinessesList extends StatelessWidget {
                 SizedBox(height: 20),
                 Text("TOUCH TO BOOK",
                     style: TextStyle(color: Colors.grey, fontSize: 10)),
+                Text("${businesses[index].distance}"),
               ],
             ),
           ),

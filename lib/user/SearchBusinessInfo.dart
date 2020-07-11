@@ -250,7 +250,7 @@ class _SearchBussinessInfoState extends State<SearchBussinessInfo> {
 
             return Scaffold(
               appBar: AppBar(
-                title: Text("🏢Business"),
+                title: Text("Business"),
                 centerTitle: true,
               ),
               body: SingleChildScrollView(

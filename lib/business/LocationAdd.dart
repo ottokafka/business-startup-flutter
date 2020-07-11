@@ -52,7 +52,7 @@ class _LocationAddState extends State<LocationAdd> {
                 textCapitalization: TextCapitalization.sentences,
                 decoration: const InputDecoration(
                   filled: true,
-                  icon: Icon(Icons.content_cut),
+                  icon: Icon(Icons.business),
                   hintText: 'Enter your Business name!',
                   labelText: 'Business name *',
                 ),

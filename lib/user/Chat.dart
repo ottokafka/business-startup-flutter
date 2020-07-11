@@ -34,8 +34,7 @@ class Chat extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       body: CreateMsg(
-        channel: IOWebSocketChannel.connect(
-            'ws://${ConfigURL.websocketIP}${ConfigURL.websocketPort}'),
+        channel: IOWebSocketChannel.connect('${ConfigURL.websocketIP}'),
       ),
     );
   }

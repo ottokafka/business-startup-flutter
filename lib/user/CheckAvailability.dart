@@ -85,7 +85,7 @@ class _CheckAvailabilityState extends State<CheckAvailability> {
     return Scaffold(
       appBar: AppBar(
         title: Text(globals.company != ""
-            ? "🏢${globals.company} - Availability"
+            ? "${globals.company} - Availability"
             : "Business availability"),
         centerTitle: true,
       ),

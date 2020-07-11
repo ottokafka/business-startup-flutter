@@ -157,7 +157,7 @@ class _AppointmentUserState extends State<AppointmentUser> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
                           Text(
-                            "🏢",
+                            "",
                             style: TextStyle(fontSize: 25),
                           ),
                           Text(
